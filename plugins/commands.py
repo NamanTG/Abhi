@@ -96,8 +96,8 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("ᴛʀʏ ᴀɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://graph.org/file/9649c1dcbae09f2e7700e.jpg",
-            caption="<b>ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>",
+            photo="https://graph.org/file/697ebd748d9e700339ff1.jpg",
+            caption="𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙼𝚈 𝙱𝙰𝙲𝙺𝚄𝙿 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 & 𝙵𝙸𝙻𝙴'𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙷𝙴𝙽 𝙲𝙻𝙸𝙲𝙺 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 𝙱𝚄𝚃𝚃𝙾𝙽 𝚃𝙷𝙴𝙽 𝙱𝙾𝚃 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄'𝚁 𝙵𝙸𝙻𝙴𝚂.⚠️",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
