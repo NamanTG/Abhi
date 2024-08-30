@@ -84,7 +84,7 @@ async def start(client, message):
                     "Jᴏɪɴ", url=invite_link.invite_link
                 ),
                 InlineKeyboardButton(
-                    "Jᴏɪɴ", url="https://t.me/movie_blast_official")
+                    "Jᴏɪɴ", url="https://t.me/Deals_OO7")
             ]
         ]
 
